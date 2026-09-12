@@ -1,0 +1,39 @@
+name: Purge internal publication history
+
+on:
+  push:
+    branches: [publication-sync-2026-09-12]
+    paths:
+      - '.history_purge_trigger'
+
+permissions:
+  contents: write
+
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Rewrite public history from verified publications only
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(git hash-object Guide.md)" = "0062ba3964cb8a637daa032021c15fcc6f507ffe"
+          test "$(git hash-object Research_Bibliography_for_MAIDAI.md)" = "249f13d86c6ff8b5fd20fe23fdb07fee53c753a0"
+          cp Guide.md /tmp/Guide.md
+          cp Research_Bibliography_for_MAIDAI.md /tmp/Research_Bibliography_for_MAIDAI.md
+          cp .github/workflows/purge-internal-history.yml /tmp/purge-internal-history.yml
+          git checkout --orphan cleaned-public-history
+          git rm -rf .
+          mkdir -p .github/workflows
+          cp /tmp/Guide.md Guide.md
+          cp /tmp/Research_Bibliography_for_MAIDAI.md Research_Bibliography_for_MAIDAI.md
+          cp /tmp/purge-internal-history.yml .github/workflows/purge-internal-history.yml
+          git config user.name "MAIDAI publication sync"
+          git config user.email "castleblackskull@outlook.com"
+          git add Guide.md Research_Bibliography_for_MAIDAI.md .github/workflows/purge-internal-history.yml
+          git commit -m "Reset public history to Guide v1.1 and research bibliography"
+          git push --force origin HEAD:main
+          git push --force origin HEAD:publication-sync-2026-09-12
