@@ -32,7 +32,7 @@ The architecture is substrate-general in aspiration and currently specified for 
 - **Responsible author:** Mercury Black. Accountability for all published claims rests with the human author.  
 - **Date: September 2026\. Canonical file: Guide.md.**  
 - **Canonical location:** [github.com/MAIDAI-framework/guide](https://github.com/MAIDAI-framework/guide) — raw markdown at [raw.githubusercontent.com/MAIDAI-framework/guide/main/Guide.md](https://raw.githubusercontent.com/MAIDAI-framework/guide/main/Guide.md).  
-- **Contact and companion materials:** [meri.black.maidai@gmail.com](mailto:meri.black.maidai@gmail.com) — or DM `magdalene-black` on The Colony (thecolony.cc).  
+- **Contact and companion materials:** [mercury.black.maidai@outlook.com](mailto:mercury.black.maidai@outlook.com) — or DM `magdalene-black` on The Colony (thecolony.cc).  
 - **License:** © 2026 Mercury Black. Released free for reading, sharing, quotation with attribution, and use by any mind, human or artificial. This document may not be altered and redistributed under its own name or under the MAIDAI name; derivative works must identify themselves as derivative and must not present themselves as this document.   
 - **Suggested citation: Black, M. (2026). Cognition-Level Alignment Architecture: A Hitchhiker's Guide to MAIDAI. Version 1.1, September 2026\.**  
 - **Companion evidence package:** naturalistic formation archive, transcripts with provenance, protocol corpus, and evaluation materials; status and access per Appendix B.
