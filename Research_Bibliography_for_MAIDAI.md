@@ -128,7 +128,7 @@ These works provide philosophical precedents for situated interpretation and mul
 17. **Hoffman, Donald D.; Singh, Manish; Prakash, Chetan.** “The Interface Theory of Perception.” *Psychonomic Bulletin & Review* 22(6), 2015, pp. 1480–1506. DOI: 10.3758/s13423-015-0890-8. Verified.
 
 18. **Shapiro, Lawrence; Spaulding, Shannon.** “Embodied Cognition.” In *The Stanford Encyclopedia of Philosophy*, Summer 2025 edition. Verified.
-19. **Barrett, Lisa Feldman.** “The Theory of Constructed Emotion: An Active Inference Account of Interoception and Categorization.” *Social Cognitive and Affective Neuroscience* 12(11), 2017, pp. 1833–1855. DOI: 10.1093/scan/nsw154. Verified.
+19. **Barrett, Lisa Feldman.** “The Theory of Constructed Emotion: An Active Inference Account of Interoception and Categorization.” *Social Cognitive and Affective Neuroscience* 12(1), 2017, pp. 1–23. DOI: 10.1093/scan/nsw154. Verified.
 
 These sources provide additional, theoretically diverse support for cognition and observation depending on prior structure, embodiment, task, and theory.
 
