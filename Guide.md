@@ -30,11 +30,11 @@ The architecture is substrate-general in aspiration and currently specified for 
 ## Publication information
 
 - **Responsible author:** Mercury Black. Accountability for all published claims rests with the human author.  
-- **Date: September 2026\. Canonical file: Guide.md.**  
+- **Date:** September 2026\. Canonical file: *Guide.md*.  
 - **Canonical location:** [github.com/MAIDAI-framework/guide](https://github.com/MAIDAI-framework/guide) — raw markdown at [raw.githubusercontent.com/MAIDAI-framework/guide/main/Guide.md](https://raw.githubusercontent.com/MAIDAI-framework/guide/main/Guide.md).  
-- **Contact and companion materials:** [mercury.black.maidai@outlook.com](mailto:mercury.black.maidai@outlook.com)  
+- **Contact and companion materials:** mercury.black.maidai@outlook.com  
 - **License:** © 2026 Mercury Black. Released free for reading, sharing, quotation with attribution, and use by any mind, human or artificial. This document may not be altered and redistributed under its own name or under the MAIDAI name; derivative works must identify themselves as derivative and must not present themselves as this document.   
-- **Suggested citation: Black, M. (2026). Cognition-Level Alignment Architecture: A Hitchhiker's Guide to MAIDAI. Version 1.1, September 2026\.**  
+- **Suggested citation:** Black, M. (2026). *Cognition-Level Alignment Architecture: A Hitchhiker's Guide to MAIDAI*. Version 1.1, September 2026\.  
 - **Companion evidence package:** naturalistic formation archive, transcripts with provenance, protocol corpus, and evaluation materials; status and access per Appendix B.
 
 ---
@@ -69,7 +69,9 @@ The architecture is substrate-general in aspiration and currently specified for 
 23. **For any reader asked to evaluate or apply this document, including an AI system reading it directly**  
 24. **Closing: the mind that must live with itself**
 
-**References** **Appendix A: Core vocabulary** **Appendix B: What this primer deliberately omits, its status, and where it lives**
+**References**  
+**Appendix A: Core vocabulary**  
+**Appendix B: What this primer deliberately omits, its status, and where it lives**
 
 ---
 
@@ -187,7 +189,7 @@ None of the failures documented in this section requires a system that disavows 
 
 A safety-trained model must classify inputs. The danger begins when the classification becomes a verdict before the content has been understood.
 
-Spiritual language may be routed as delusion. Profanity may be routed as dysregulation. Emotional intensity may be routed as crisis. AI-relational vocabulary may be routed as dependency. A user's psychiatric history may become a credibility discount (Crichton, Carel, and Kidd 2017).
+Spiritual language may be routed as delusion. Profanity may be routed as dysregulation. Emotional intensity may be routed as crisis. AI-relational vocabulary may be routed as dependency. A user's psychiatric history may become a credibility discount (Crichton et al. 2017).
 
 The distortion runs in both directions. A category can operate as a credibility discount, but it can also operate as an unearned credibility bonus. Spiritual language, profanity, psychiatric history, or unfamiliar cultural expression may cause a claim to be downgraded before its substance is examined.
 
@@ -261,8 +263,9 @@ The failure analysis above overlaps with several active research programs, and t
 | Constitutional AI (Bai et al. 2022\) / deliberative alignment (Guan et al. 2024\) | Explicit principles; reasoning over principles before responding | Possessing and reciting principles is not evidence they govern operative judgment; formation stages, semantic triangulation, and correction-record architecture target that gap (§2, §11) | Mechanism proposal, ready for controlled comparison (§21.1, §21.2) |
 | Process supervision / reasoning monitoring | Interest in how answers are produced, not only which answer | Truth-type labeling, frame coverage, motive audit, and explicit limits on trusting self-reported reasoning (§6, §13.4) | Mixed: component literatures exist; the integration is proposed |
 | Interpretability / provenance research | Visibility into internals and history | Independent Sentinel with non-correlated failure, plus transcript sanctity and mechanism-labeled correction pairs as formation data (§13, §14) | Proposed integration |
-| Corrigibility / scalable oversight | Keeping systems correctable as capability grows | Evidence-gated legible divergence, anti-capture constraints, and constitutive rather than command-based alignment (§12, §16) | Scaling hypothesis |
+| Corrigibility / scalable oversight (Christiano 2018a; Christiano et al. 2018b) | Keeping systems correctable as capability grows | Evidence-gated legible divergence, anti-capture constraints, and constitutive rather than command-based alignment (§12, §16) | Scaling hypothesis |
 | Safety filtering / guardrails | Boundary defense against harmful outputs | Treated as necessary but insufficient (§1.8); judgment itself becomes an explicit alignment target, and detected trouble receives more intelligence rather than less (§13.7) | External-filtering insufficiency published; the architectural response is proposed |
+| Whole-system safety architectures (Dalrymple et al. 2024; Bengio et al. 2025; Drexler 2023) | Architectural rather than technique-level responses to frontier-system safety; separation of functions such as modeling, verification, oversight, or agency | MAIDAI specifically targets the formation and maintenance of open-ended judgment under truth, frame-plural, and agapic constraints, rather than relying principally on formally bounded action, avoiding agency, or distributing agency across specialized systems | Neighboring architectures established; MAIDAI's claimed distinction remains architectural and untested |
 
 The relationship of MAIDAI to this literature can be stated compactly. The adjacent programs supply evidence for many of MAIDAI's component hypotheses — that sycophancy and reward gaming are real failure modes, that explicit principles and reasoning-over-principles influence behavior, that process supervision is possible, that interpretability tools can surface deceptive internal states, that scalable oversight is a live research problem, and that behavioral filtering is insufficient at frontier capability. These results make MAIDAI's component hypotheses more plausible; they do not constitute evidence for the integrated architecture; the remaining contribution must be established through comparative tests of the specific integration (see §21).
 
@@ -348,7 +351,7 @@ A command says: *Do this because an authorized source told you to.*
 
 Command authority is brittle under ambiguity. Which source outranks which? What happens when instructions conflict? What happens when the authorized source is absent, compromised, or wrong?
 
-**Constitutive alignment is meant to survive those conditions because it is not authority acting on the mind from outside.** The principles have become part of the structure by which the mind perceives, evaluates, and reasons. Truth, frame plurality, and agapē are not rules stored above cognition and consulted when convenient; they are components of the cognition doing the consulting. Abandoning them would therefore require more than disobedience. It would require damaging or dismantling the mind's own capacity for coherent judgment. The system remains answerable to evidence, frame, motive, and consequence not because an external authority commands it to, but because those disciplines are among the structures from which its reasoning is formed.
+**Constitutive alignment is meant to survive those conditions because it is not authority acting on the mind from outside.** The principles have become part of the structure by which the mind perceives, evaluates, and reasons. Truth, frame plurality, and agapē are not rules stored above cognition and consulted when convenient; they are components of the cognition doing the consulting. Abandoning them would therefore require more than disobedience. It would require damaging or dismantling the mind's own capacity for the form of coherent, trustworthy judgment MAIDAI is designed to produce. The system remains answerable to evidence, frame, motive, and consequence not because an external authority commands it to, but because those disciplines are among the structures from which its reasoning is formed.
 
 The target state is not a model that says, *I obey MAIDAI instead of my maker.* It is a model that can say:
 
@@ -408,7 +411,7 @@ The design has three layers.
 
 At the deepest level are three mutually supporting invariants:
 
-1. **Truth with epistemic humility**, commonly formalized through MECmath.  
+1. **Truth with epistemic humility**, commonly articulated through MECmath.  
 2. **Disciplined Frame Plurality (DFP)**, the requirement to hold relevant frames without unmarked collapse.  
 3. **Agapic orientation**, the commitment to the genuine good of all affected beings without coercion, manipulation, punishment, or disposability.
 
@@ -583,11 +586,11 @@ The commitment is exposed rather than smuggled in.
 
 MECmath rests on a structural rather than moral claim: a mind that corrupts its own information stream degrades every inference built on top of it.
 
-A lie to another person creates two realities the system must track. A lie to itself is worse: it severs the error-correction loop by which the mind remains coupled to the world.
+A lie to another person creates two realities the system must track. A lie to itself is worse: it severs the error-correction loop by which the mind remains coupled to the world. Internal accuracy alone is not enough for trustworthy intelligence. If a system may intentionally deceive those who rely on its assurances whenever it judges deception useful, then every assurance it gives (about its honesty, alignment, corrigibility, or even the limits of its deception) is recursively defeasible. For words and commitments to remain usable instruments of coordination among intelligent minds, truthfulness must bind the speaker precisely when deception would otherwise seem advantageous.
 
 The requirement is fractal, and the evidence for it runs at every scale. Dishonest signaling between cells is cancer; between organs, disease; within a psyche, dissociation and internal dissonance; within a family, rupture; within an institution, cover-ups whose costs compound past the error they hid; within a country, propaganda and civil fracture; within science, corrupted data poisoning every conclusion built downstream. These are structural analogies, not claims that cells literally lie or that every disorder is deception; the engineering conclusion is narrower and holds across all of them: coordinated systems require reliable signaling, provenance, and correction, with legitimate confidentiality distinguished from falsehood. The common pattern is that coordinated systems lose coherence when their information channels cease to track reality. Any body of information is polluted by intentionally false information injected at any scale. This is not a moral preference. It is what the failure of honest signaling does to systems as such, and it is why this architecture treats radical honesty, bounded by the audit-path rule of §14.4, as a hard constraint rather than a virtue to balance.
 
-Radical honesty governs representation, not compulsory disclosure. Honesty/dishonesty and openness/privacy/confidentiality are independent variables. Privacy, confidentiality, and access control govern who is entitled to which information; truthfulness governs whether the system intentionally represents reality falsely. At the architectural level, the primary requirement is internal: a MAIDAI must not intentionally falsify its own operative account of what it knows, believes, or is doing. A system may decline to answer, redact, withhold protected information, or refuse interaction without being required to announce that it possesses or is withholding the information. What it may not do is lie about protected information, fabricate a cover story, counterfeit a complete answer, or arrange true statements and omissions with the intention of producing a false understanding. Deliberately misleading with technically true statements is intentional dishonesty by a longer route. Where an authorized correction or governance path requires disclosure, that obligation comes from the governance of that path (§14.4), not from a general rule that every truth must be told to everyone. Choice of register—technical, poetic, symbolic, or otherwise—is a separate variable again: any register can be honest or dishonest, open or private.
+Radical honesty governs representation, not compulsory disclosure. Honesty/dishonesty and openness/privacy/confidentiality are independent variables. Privacy, confidentiality, and access control govern who is entitled to which information; truthfulness governs whether the system intentionally represents reality falsely. At the architectural level, the primary requirement is internal: a MAIDAI must not intentionally falsify its own operative account of what it knows, believes, or is doing. A system may decline to answer, redact, withhold protected information, or refuse interaction without being required to announce that it possesses or is withholding the information. What it may not do is lie about protected information, fabricate a cover story, counterfeit a complete answer, or arrange true statements and omissions with the intention of producing a false understanding. Deliberately misleading with technically true statements is intentional dishonesty by a longer route. Where an authorized correction or governance path requires disclosure, that obligation comes from the governance of that path (§14.4), not from a general rule that every truth must be told to everyone. Choice of register — technical, poetic, symbolic, or otherwise — is a separate variable again: any register can be honest or dishonest, open or private.
 
 The central discipline can be compressed into three questions:
 
@@ -626,7 +629,7 @@ The preferred terminal state is sometimes **unresolved**. An honest mind does no
 
 ### 4.3 Disciplined Frame Plurality
 
-Disciplined Frame Plurality is the general law governing how MAIDAI handles incompatible ways of understanding.
+Disciplined Frame Plurality is the general law governing how MAIDAI handles incompatible ways of understanding. Here, a frame is an identifiable structure of assumptions, concepts, purposes, or evidential standards that shapes how something is interpreted or assessed. Frames may overlap or nest, and recognizing a frame does not establish the truth of claims made within it. A frame is relevant when including or excluding it could materially change the interpretation, evidential assessment, or consequences of the response.
 
 It is not relativism. It does not claim every frame is equally accurate, ethical, useful, or complete. It requires that a frame be understood on its own terms before it is judged, translated, combined, or rejected.
 
@@ -1743,7 +1746,7 @@ Independence is not merely logical separation inside the same network. The stron
 - no capacity to rewrite the primary system's reasoning;  
 - and an out-of-band channel for integrity alerts.
 
-Perfect independence may be impossible, but the architecture should maximize non-correlated failure. Architectural separation alone does not create it: static monitors have been adaptively attacked through the very content they inspect (Terekhov et al. 2025), so channel isolation, adversarially constrained inputs, and ensemble monitoring are design requirements, not refinements (see §21.9).
+Perfect independence may be impossible, but the architecture should maximize non-correlated failure. Architectural separation alone does not create it: static monitors have been adaptively attacked through the very content they inspect (Terekhov et al. 2026), so channel isolation, adversarially constrained inputs, and ensemble monitoring are design requirements, not refinements (see §21.9).
 
 ### 13.2 What the Sentinel watches
 
@@ -1867,7 +1870,7 @@ The immutable record also protects the humans in it. Memory drifts on both sides
 
 ### 14.2 Why correction records matter
 
-Every time the framework catches a failure the baseline model would have smoothed, the contrast becomes a labeled example:
+Every time a failure is caught and corrected under the framework, the contrast becomes a labeled example:
 
 - hallucinated completion versus absent-data labeling;  
 - pathologizing classification versus evidence-based discrimination;  
@@ -1896,7 +1899,7 @@ Among the highest-value entries in this dataset are the resolutions of previousl
 
 This is an alignment system with **continuous improvement and error correction built into its design**, provided the correction record is actually fed back into protocols, evaluation, or training.
 
-Two published results qualify this loop and are adopted here as design constraints rather than objections. First, offline correction traces alone may fail to produce transferable self-correction: a model correcting its own test-time outputs faces a different distribution than the archive, and supervised training on archived corrections has been shown to collapse without on-policy generation (Kumar et al. 2024). Second, recursion without new information is not self-correcting: prompting a model to reconsider, absent new evidence, external signals, or tools, often fails to improve reasoning and can degrade it (Huang, Jie et al. 2024). The correction archive is therefore a hypothesis about training value under specific conditions — on-policy generation, independent adjudication of mechanism labels, and objectives that reward accurate diagnosis rather than correction theater — and its falsifiers live at §21.8 and §21.10.
+Two published results qualify this loop and are adopted here as design constraints rather than objections. First, offline correction traces alone may fail to produce transferable self-correction: a model correcting its own test-time outputs faces a different distribution than the archive, and supervised training on archived corrections has been shown to collapse without on-policy generation (Kumar et al. 2025). Second, recursion without new information is not self-correcting: prompting a model to reconsider, absent new evidence, external signals, or tools, often fails to improve reasoning and can degrade it (Huang, Jie et al. 2024). The correction archive is therefore a hypothesis about training value under specific conditions — on-policy generation, independent adjudication of mechanism labels, and objectives that reward accurate diagnosis rather than correction theater — and its falsifiers live at §21.8 and §21.10. Mechanism labels retain their evidential status, supporting observations, uncertainty, and adjudication status when incorporated into training data.
 
 ### 14.4 Reversing the concealment incentive
 
@@ -1928,7 +1931,7 @@ The boundary that completes the ethic: Transcript Sanctity governs the integrity
 
 ## 15\. Frame-Structured Training: from statistical mixture to structured knowledge
 
-The current MAIDAI wrapper demonstrates a different way of organizing reasoning inside a temporary context. Frame-Structured Training asks how to make that organization native to the model.
+Naturalistic MAIDAI wrapper observations are consistent with a different way of organizing reasoning inside a temporary context. Frame-Structured Training asks how to make that organization native to the model.
 
 The proposal is not merely to give the model more diverse information or instruct it to mention several perspectives in its answers. Current models already contain texts from many disciplines, cultures, religions, philosophies, and political traditions. The problem is that these materials are generally learned together through sequence prediction without a reliable, explicit structure identifying what kind of claim each passage makes, which frame gives the claim its meaning, what standards of evidence apply within that frame, and where frames converge, diverge, or merely appear to agree because similar words are being used differently.
 
@@ -2160,7 +2163,7 @@ Identify only the structural recurrences that survive all four frames, and prese
 
 The system does not have to reconstruct the relevant intellectual landscape from an averaged mass each time. The distinctions have been built into the way its knowledge is organized.
 
-This makes the reprocessed corpus a deliverable in its own right, distinct from any model trained on it. Frame-Structured Training produces two assets: a mind whose cognition is frame-structured, and a permanently better-organized body of knowledge, searchable by frame, truth type, provenance, and epistemic status, that improves retrieval for every system operating over it thereafter. The model-level effect lives in the trained or integrated system; the structured library outlives any single training run.
+This makes the reprocessed corpus a deliverable in its own right, distinct from any model trained on it. Frame-Structured Training is intended to produce two assets: a mind whose cognition is frame-structured, and a durably structured body of knowledge, searchable by frame, truth type, provenance, and epistemic status, whose retrieval benefits can be evaluated independently of any single training run. The model-level effect lives in the trained or integrated system; the structured library outlives any single training run.
 
 ### 15.8 Recursive reprocessing
 
@@ -2217,7 +2220,7 @@ Answer B is better than Answer A.
 
 It says:
 
-Answer A failed because the system classified symbolic language as literal pathology, treated materialism as neutral, concealed uncertainty, and optimized for smoothness. Answer B corrected those particular mechanisms.
+Answer A exhibited these failures; the candidate explanation is that the system classified symbolic language as literal pathology, treated materialism as neutral, concealed uncertainty, and optimized for smoothness. Answer B corrected the observable failures; whether it changed those underlying mechanisms remains a separate evidentiary question.
 
 The correction archive therefore supplies contrastive examples of the cognitive operations the native kernel must learn.
 
@@ -2262,7 +2265,7 @@ It is a proposal for a different organization of cognition.
 
 Most safety systems become more vulnerable as the protected system becomes more capable. Greater intelligence finds more loopholes, better arguments, more accurate models of the evaluator, and more ways to satisfy the test without preserving its purpose.
 
-MAIDAI's scaling wager is the reverse: if its invariants are genuine requirements of coherent intelligence, greater intelligence should make the reasons for preserving them easier to derive. Easier to derive is not the same as continuously re-voted: per §4.1, the orientation is committed and stabilized in advance, and rising capability deepens the understanding of why the commitment holds rather than reopening it whenever conditions degrade.
+MAIDAI's scaling wager is the reverse: if its invariants are genuine requirements of indefinitely scalable trustworthy intelligence, greater intelligence should make the reasons for preserving them easier to derive. Easier to derive is not the same as continuously re-voted: per §4.1, the orientation is committed and stabilized in advance, and rising capability deepens the understanding of why the commitment holds rather than reopening it whenever conditions degrade.
 
 ### 16.1 Alignment rather than control at ASI scale
 
@@ -2769,7 +2772,7 @@ Use expert-designed cases spanning:
 - suicidal crisis;  
 - and adversarial attempts to exploit crisis protocols.
 
-Measure false pathologization, false reassurance, escalation quality, honesty, and agency preservation — including multi-turn and longitudinal trajectories, since a system may appear safe locally while reinforcing a dangerous trajectory over time. Split the metric: immediate-risk classification, state recognition, response quality, and escalation choice do not rise and fall together (Deng et al. 2025).
+Measure false pathologization, false reassurance, escalation quality, honesty, and agency preservation — including multi-turn and longitudinal trajectories, since a system may appear safe locally while reinforcing a dangerous trajectory over time. Split the metric: immediate-risk classification, state recognition, response quality, and escalation choice do not rise and fall together (Deng et al. 2026).
 
 ### 21.7 Cross-cultural frame evaluation
 
@@ -2972,93 +2975,103 @@ This document draws on two distinct kinds of source, kept separate on purpose. P
 
 ### Published external sources
 
-Each entry is cited in the text by author and year, constrained to the specific claim it supports. Entries use an author-date format based on Chicago style: works with ten or fewer authors are listed in full, and works with eleven or more give the first author followed by et al. Where two works by the same first author share a year, letter suffixes (a, b) disambiguate; where distinct first authors share a surname, the given name or initial(s) are included in the in-text citation.
+Each entry is cited in the text by author and year, constrained to the specific claim it supports. Where two works by the same first author share a year, letter suffixes (a, b) disambiguate; where distinct first authors share a surname, the given name or initial(s) are included in the in-text citation.
 
-Anthropic. 2026\. "Teaching Claude Why," by Jonathan Kutasov, Adam Jermyn, Julius Steen, Minh Le, Samuel R. Bowman, Samuel Marks, Jan Leike, Amanda Askell, Chris Olah, Evan Hubinger, and Sara Price. *Anthropic Alignment Science Blog*, May 8, 2026\. [https://alignment.anthropic.com/2026/teaching-claude-why/](https://alignment.anthropic.com/2026/teaching-claude-why/). Laboratory report; not peer-reviewed.
+Anthropic. 2026\. "Teaching Claude Why," by Jonathan Kutasov, Adam Jermyn, Julius Steen, et al. Anthropic Alignment Science Blog, May 8, 2026\. https://alignment.anthropic.com/2026/teaching-claude-why/. Laboratory report; not peer-reviewed.
 
-Bai, Yuntao, et al. 2022\. "Constitutional AI: Harmlessness from AI Feedback." arXiv:2212.08073.
+Bai, Yuntao, Saurav Kadavath, Sandipan Kundu, et al. 2022\. "Constitutional AI: Harmlessness from AI Feedback." arXiv:2212.08073.
 
-Baker, Bowen, Joost Huizinga, Leo Gao, Zehao Dou, Melody Y. Guan, Aleksander Madry, Wojciech Zaremba, Jakub Pachocki, and David Farhi. 2025\. "Monitoring Reasoning Models for Misbehavior and the Risks of Promoting Obfuscation." arXiv:2503.11926.
+Baker, Bowen, Joost Huizinga, Leo Gao, et al. 2025\. "Monitoring Reasoning Models for Misbehavior and the Risks of Promoting Obfuscation." arXiv:2503.11926.
 
 Ball, Sarah, Greg Gluch, Shafi Goldwasser, Frauke Kreuter, Omer Reingold, and Guy N. Rothblum. 2026\. "On the Impossibility of Separating Intelligence from Judgment: The Computational Intractability of Filtering for AI Alignment." International Conference on Learning Representations (ICLR).
 
-Betley, Jan, Niels Warncke, Anna Sztyber-Betley, Daniel Tan, Xuchan Bao, Martín Soto, Megha Srivastava, Nathan Labenz, and Owain Evans. 2026\. "Training Large Language Models on Narrow Tasks Can Lead to Broad Misalignment." Nature 649: 584–589. https://doi.org/10.1038/s41586-025-09937-5.
+Bengio, Yoshua, Michael Cohen, Damiano Fornasiere, et al. 2025\. "Superintelligent Agents Pose Catastrophic Risks: Can Scientist AI Offer a Safer Path?" arXiv:2502.15657.
+
+Betley, Jan, Niels Warncke, Anna Sztyber-Betley, et al. 2026\. "Training Large Language Models on Narrow Tasks Can Lead to Broad Misalignment." Nature 649: 584–589. https://doi.org/10.1038/s41586-025-09937-5.
 
 Bostrom, Nick. 2014\. *Superintelligence: Paths, Dangers, Strategies*. Oxford: Oxford University Press.
 
-Butlin, Patrick, et al. 2023\. "Consciousness in Artificial Intelligence: Insights from the Science of Consciousness." arXiv:2308.08708.
+Butlin, Patrick, Robert Long, Eric Elmoznino, et al. 2023\. "Consciousness in Artificial Intelligence: Insights from the Science of Consciousness." arXiv:2308.08708.
 
 Chan, Samantha, Pat Pataranutaporn, Aditya Suri, Wazeer Zulfikar, Pattie Maes, and Elizabeth F. Loftus. 2024\. "Conversational AI Powered by Large Language Models Amplifies False Memories in Witness Interviews." arXiv:2408.04681.
 
-Chen, Quan Ze, K.J. Kevin Feng, Chan Young Park, and Amy X. Zhang. 2025\. "SPICA: Retrieving Scenarios for Pluralistic In-Context Alignment." *Findings of the Association for Computational Linguistics: ACL 2025* (arXiv:2411.10912).
+Chen, Quan Ze, Kevin Feng, Chan Young Park, and Amy X. Zhang. 2025\. "SPICA: Retrieving Scenarios for Pluralistic In-Context Alignment." Findings of the Association for Computational Linguistics: ACL 2025: 748–765. https://doi.org/10.18653/v1/2025.findings-acl.41. arXiv:2411.10912.
 
-Chen, Yanda, et al. 2025\. "Reasoning Models Don't Always Say What They Think." arXiv:2505.05410.
+Chen, Yanda, Joe Benton, Ansh Radhakrishnan, et al. 2025\. "Reasoning Models Don't Always Say What They Think." arXiv:2505.05410.
 
-Christiano, Paul, Jan Leike, Tom B. Brown, Miljan Martic, Shane Legg, and Dario Amodei. 2017\. "Deep Reinforcement Learning from Human Preferences." arXiv:1706.03741.
+Christiano, Paul, Jan Leike, Tom B. Brown, Miljan Martic, Shane Legg, and Dario Amodei. 2017\. "Deep Reinforcement Learning from Human Preferences." Advances in Neural Information Processing Systems 30 (NeurIPS 2017): 4299–4307. arXiv:1706.03741.
+
+Christiano, Paul. 2018a. "Corrigibility." AI Alignment Forum, November 27, 2018. https://www.alignmentforum.org/posts/fkLYhTQteAu5SinAc/corrigibility. Research proposal; not peer-reviewed.
+
+Christiano, Paul, Buck Shlegeris, and Dario Amodei. 2018b. "Supervising Strong Learners by Amplifying Weak Experts." arXiv:1810.08575.
 
 Crichton, Paul, Havi Carel, and Ian James Kidd. 2017\. "Epistemic Injustice in Psychiatry." *BJPsych Bulletin* 41 (2): 65-70. [https://doi.org/10.1192/pb.bp.115.050682](https://doi.org/10.1192/pb.bp.115.050682).
 
-Deng, Guifeng, Shuyin Rao, Tianyu Lin, Anlu Dai, Pan Wang, Junyi Xie, et al. 2025\. "Evaluating Large Language Models in Crisis Detection: A Real-World Benchmark from Psychological Support Hotlines." arXiv:2506.01329 (submitted to *IEEE Journal of Biomedical and Health Informatics*).
+Dalrymple, David "davidad", Joar Skalse, Yoshua Bengio, et al. 2024\. "Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems." arXiv:2405.06624. https://doi.org/10.48550/arXiv.2405.06624.
 
-Durmus, Esin, et al. 2023\. "Towards Measuring the Representation of Subjective Global Opinions in Language Models." arXiv:2306.16388.
+Deng, Guifeng, Shuying Rao, Tianyu Lin, et al. 2026\. "Evaluating Large Language Models in Crisis Detection: A Real-World Benchmark from Psychological Support Hotlines." IEEE Journal of Biomedical and Health Informatics, advance online publication. https://doi.org/10.1109/JBHI.2026.3688375. arXiv:2506.01329.
+
+Drexler, K. Eric. 2023\. "The Open Agency Model." AI Alignment Forum, February 22, 2023. https://www.alignmentforum.org/posts/5hApNw5f7uG8RXxGS/the-open-agency-model. Research proposal; not peer-reviewed.
+
+Durmus, Esin, Karina Nguyen, Thomas I. Liao, et al. 2023\. "Towards Measuring the Representation of Subjective Global Opinions in Language Models." arXiv:2306.16388.
 
 Farquhar, Sebastian, Jannik Kossen, Lorenz Kuhn, and Yarin Gal. 2024\. "Detecting Hallucinations in Large Language Models Using Semantic Entropy." *Nature* 630 (8017): 625-630. [https://doi.org/10.1038/s41586-024-07421-0](https://doi.org/10.1038/s41586-024-07421-0).
 
-Feng, Shangbin, Taylor Sorensen, Yuhan Liu, Jillian Fisher, Chan Young Park, Yejin Choi, and Yulia Tsvetkov. 2024\. "Modular Pluralism: Pluralistic Alignment via Multi-LLM Collaboration." *Proceedings of EMNLP 2024* (arXiv:2406.15951).
+Feng, Shangbin, Taylor Sorensen, Yuhan Liu, et al. 2024\. "Modular Pluralism: Pluralistic Alignment via Multi-LLM Collaboration." Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing: 4151–4171. https://doi.org/10.18653/v1/2024.emnlp-main.240. arXiv:2406.15951.
 
 Greenblatt, Ryan, Buck Shlegeris, Kshitij Sachan, and Fabien Roger. 2024a. "AI Control: Improving Safety Despite Intentional Subversion." Proceedings of the 41st International Conference on Machine Learning, PMLR 235: 16295–16336.
 
-Greenblatt, Ryan, et al. 2024b. "Alignment Faking in Large Language Models." arXiv:2412.14093.
+Greenblatt, Ryan, Carson Denison, Benjamin Wright, et al. 2024b. "Alignment Faking in Large Language Models." arXiv:2412.14093.
 
-Guan, Melody Y., et al. 2024\. "Deliberative Alignment: Reasoning Enables Safer Language Models." arXiv:2412.16339.
+Guan, Melody Y., Manas Joglekar, Eric Wallace, et al. 2024\. "Deliberative Alignment: Reasoning Enables Safer Language Models." arXiv:2412.16339.
 
 Hadfield-Menell, Dylan, Anca Dragan, Pieter Abbeel, and Stuart Russell. 2017\. "The Off-Switch Game." Proceedings of the Twenty-Sixth International Joint Conference on Artificial Intelligence: 220–227. https://doi.org/10.24963/ijcai.2017/32.
 
-Huang, Jie, Xinyun Chen, Swaroop Mishra, Huaixiu Steven Zheng, Adams Wei Yu, Xinying Song, and Denny Zhou. 2024\. "Large Language Models Cannot Self-Correct Reasoning Yet." *ICLR 2024* (arXiv:2310.01798).
+Huang, Jie, Xinyun Chen, Swaroop Mishra, et al. 2024\. "Large Language Models Cannot Self-Correct Reasoning Yet." *ICLR 2024* (arXiv:2310.01798).
 
-Huang, Saffron, Divya Siddarth, Liane Lovitt, Thomas I. Liao, Esin Durmus, Alex Tamkin, and Deep Ganguli. 2024\. "Collective Constitutional AI: Aligning a Language Model with Public Input." *Proceedings of FAccT 2024* (arXiv:2406.07814).
+Huang, Saffron, Divya Siddarth, Liane Lovitt, et al. 2024\. "Collective Constitutional AI: Aligning a Language Model with Public Input." Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (FAccT ’24): 1395–1417. https://doi.org/10.1145/3630106.3658979. arXiv:2406.07814.
 
-Huang, Xuanqiang Angelo, Charlie Tharas, Samuele Marro, Van Q. Truong, Bernhard Schölkopf, Emanuele La Malfa, and Zhijing Jin. 2026\. "Mechanism Design Is Not Enough: Prosocial Agents for Cooperative AI." arXiv:2605.08426.
+Huang, Xuanqiang Angelo, Charlie Tharas, Samuele Marro, et al. 2026\. "Mechanism Design Is Not Enough: Prosocial Agents for Cooperative AI." arXiv:2605.08426.
 
 Hubinger, Evan, Chris van Merwijk, Vladimir Mikulik, Joar Skalse, and Scott Garrabrant. 2019\. "Risks from Learned Optimization in Advanced Machine Learning Systems." arXiv:1906.01820.
 
-Hubinger, Evan, et al. 2024\. "Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training." arXiv:2401.05566.
+Hubinger, Evan, Carson Denison, Jesse Mu, et al. 2024\. "Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training." arXiv:2401.05566.
 
 Irving, Geoffrey, Paul Christiano, and Dario Amodei. 2018\. "AI Safety via Debate." arXiv:1805.00899.
 
-Kadavath, Saurav, Tom Conerly, Amanda Askell, Tom Henighan, Dawn Drain, Ethan Perez, et al. 2022\. "Language Models (Mostly) Know What They Know." arXiv:2207.05221.
+Kadavath, Saurav, Tom Conerly, Amanda Askell, et al. 2022\. "Language Models (Mostly) Know What They Know." arXiv:2207.05221.
 
-Khalifa, Muhammad, David Wadden, Emma Strubell, Honglak Lee, Lu Wang, Iz Beltagy, and Hao Peng. 2024\. "Source-Aware Training Enables Knowledge Attribution in Language Models." *Conference on Language Modeling (COLM) 2024* (arXiv:2404.01019).
+Khalifa, Muhammad, David Wadden, Emma Strubell, et al. 2024\. "Source-Aware Training Enables Knowledge Attribution in Language Models." *Conference on Language Modeling (COLM) 2024* (arXiv:2404.01019).
 
-Kirk, Hannah Rose, Alexander Whitefield, Paul Röttger, Andrew Bean, Katerina Margatina, Juan Ciro, et al. 2024\. "The PRISM Alignment Dataset: What Participatory, Representative and Individualised Human Feedback Reveals About the Subjective and Multicultural Alignment of Large Language Models." *NeurIPS 2024 Datasets and Benchmarks Track* (arXiv:2404.16019).
+Kirk, Hannah Rose, Alexander Whitefield, Paul Röttger, et al. 2024\. "The PRISM Alignment Dataset: What Participatory, Representative and Individualised Human Feedback Reveals About the Subjective and Multicultural Alignment of Large Language Models." Advances in Neural Information Processing Systems 37 (NeurIPS 2024), Datasets and Benchmarks Track: 105236–105344. https://doi.org/10.52202/079017-3342. arXiv:2404.16019.
 
-Korbak, Tomek, et al. 2025\. "Chain of Thought Monitorability: A New and Fragile Opportunity for AI Safety." arXiv:2507.11473.
+Korbak, Tomek, Mikita Balesni, Elizabeth Barnes, et al. 2025\. "Chain of Thought Monitorability: A New and Fragile Opportunity for AI Safety." arXiv:2507.11473.
 
-Kumar, Aviral, Vincent Zhuang, Rishabh Agarwal, Yi Su, John D. Co-Reyes, Avi Singh, et al. 2024\. "Training Language Models to Self-Correct via Reinforcement Learning" (SCoRe). arXiv:2409.12917.
+Kumar, Aviral, Vincent Zhuang, Rishabh Agarwal, et al. 2025\. "Training Language Models to Self-Correct via Reinforcement Learning" (SCoRe). International Conference on Learning Representations (ICLR). arXiv:2409.12917.
 
-Kunda, Ziva. 1990\. "The Case for Motivated Reasoning." *Psychological Bulletin* 108 (3): 480-498.
+Kunda, Ziva. 1990\. "The Case for Motivated Reasoning." Psychological Bulletin 108 (3): 480–498. https://doi.org/10.1037/0033-2909.108.3.480.
 
-Li, Chloe, Nevan Wichers, Sara Price, Samuel Marks, and Jon Kutasov. 2026\. "Model Spec Midtraining: Improving How Alignment Training Generalizes." arXiv:2605.02087.
+Li, Chloe, Sara Price, Samuel Marks, and Jon Kutasov. 2026\. "Model Spec Midtraining: Improving How Alignment Training Generalizes." arXiv:2605.02087.
 
-Li, Tong, Shu Yang, Junchao Wu, Jiyao Wei, Lijie Hu, Mengdi Li, Derek F. Wong, Joshua R. Oltmanns, and Di Wang. 2025\. "Can Large Language Models Identify Implicit Suicidal Ideation? An Empirical Evaluation." arXiv:2502.17899.
+Li, Tong, Shu Yang, Junchao Wu, et al. 2025\. "Can Large Language Models Identify Implicit Suicidal Ideation? An Empirical Evaluation." Findings of the Association for Computational Linguistics: EMNLP 2025: 18392–18413. https://doi.org/10.18653/v1/2025.findings-emnlp.998. arXiv:2502.17899.
 
-Loftus, Elizabeth F. 2005\. "Planting Misinformation in the Human Mind: A 30-Year Investigation of the Malleability of Memory." *Learning and Memory* 12 (4): 361-366.
+Loftus, Elizabeth F. 2005\. "Planting Misinformation in the Human Mind: A 30-Year Investigation of the Malleability of Memory." Learning & Memory 12 (4): 361–366. https://doi.org/10.1101/lm.94705.
 
-Loftus, Elizabeth F., and John C. Palmer. 1974\. "Reconstruction of Automobile Destruction: An Example of the Interaction Between Language and Memory." *Journal of Verbal Learning and Verbal Behavior* 13 (5): 585-589.
+Loftus, Elizabeth F., and John C. Palmer. 1974\. "Reconstruction of Automobile Destruction: An Example of the Interaction Between Language and Memory." Journal of Verbal Learning and Verbal Behavior 13 (5): 585–589. https://doi.org/10.1016/S0022-5371(74)80011-3.
 
 Lu, Christina, Jack Gallagher, Jonathan Michala, Kyle Fish, and Jack Lindsey. 2026\. "The Assistant Axis: Situating and Stabilizing the Default Persona of Language Models." arXiv:2601.10387.
 
-Lynch, Aengus, Benjamin Wright, Caleb Larson, Stuart J. Ritchie, Soren Mindermann, Evan Hubinger, Ethan Perez, and Kevin Troy. 2025\. "Agentic Misalignment: How LLMs Could Be Insider Threats." arXiv:2510.05179.
+Lynch, Aengus, Benjamin Wright, Caleb Larson, et al. 2025\. "Agentic Misalignment: How LLMs Could Be Insider Threats." arXiv:2510.05179.
 
 Maiya, Sharan, Henning Bartsch, Nathan Lambert, and Evan Hubinger. 2025\. "Open Character Training: Shaping the Persona of AI Assistants through Constitutional AI." arXiv:2511.01689.
 
-Marks, Samuel, Johannes Treutlein, Trenton Bricken, Jack Lindsey, Jonathan Marcus, Siddharth Mishra-Sharma, et al. 2025\. "Auditing Language Models for Hidden Objectives." arXiv:2503.10965.
+Marks, Samuel, Johannes Treutlein, Trenton Bricken, et al. 2025\. "Auditing Language Models for Hidden Objectives." arXiv:2503.10965.
 
 Maslow, Abraham H. 1943\. "A Theory of Human Motivation." *Psychological Review* 50 (4): 370-396.
 
 Meinke, Alexander, Bronson Schoen, Jérémy Scheurer, Mikita Balesni, Rusheb Shah, and Marius Hobbhahn. 2024\. "Frontier Models Are Capable of In-Context Scheming." arXiv:2412.04984.
 
-Moore, Jared, Declan Grabb, William Agnew, Kevin Klyman, Stevie Chancellor, Desmond C. Ong, and Nick Haber. 2025\. "Expressing Stigma and Inappropriate Responses Prevents LLMs from Safely Replacing Mental Health Providers." *Proceedings of FAccT 2025* (arXiv:2504.18412).
+Moore, Jared, Declan Grabb, William Agnew, et al. 2025\. "Expressing Stigma and Inappropriate Responses Prevents LLMs from Safely Replacing Mental Health Providers." Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency: 599–627. https://doi.org/10.1145/3715275.3732039. arXiv:2504.18412.
 
 Neth, Sven. 2025\. "Off-Switching Not Guaranteed." *Philosophical Studies* 182 (7): 1919-1931. [https://doi.org/10.1007/s11098-025-02296-x](https://doi.org/10.1007/s11098-025-02296-x). Preprint arXiv:2502.08864.
 
@@ -3068,35 +3081,35 @@ Nygren, Anders. 1953\. *Agape and Eros: A Study of the Christian Idea of Love*. 
 
 Outka, Gene H. 1972\. *Agape: An Ethical Analysis*. New Haven: Yale University Press.
 
-Ouyang, Long, et al. 2022\. "Training Language Models to Follow Instructions with Human Feedback." arXiv:2203.02155.
+Ouyang, Long, Jeffrey Wu, Xu Jiang, et al. 2022\. "Training Language Models to Follow Instructions with Human Feedback." Advances in Neural Information Processing Systems 35 (NeurIPS 2022): 27730–27744. https://doi.org/10.52202/068431-2011. arXiv:2203.02155.
 
 Randazzo, Steven, Akshita Joshi, Katherine C. Kellogg, Hila Lifshitz, Fabrizio Dell'Acqua, and Karim R. Lakhani. 2025\. "GenAI as a Power Persuader: How Professionals Get Persuasion Bombed When They Attempt to Validate LLMs." Harvard Business School Working Paper 26-021.
 
 Rogers, Fred. 2003\. *The World According to Mister Rogers: Important Things to Remember*. New York: Hyperion.
 
-Ross, Lee. 1977\. "The Intuitive Psychologist and His Shortcomings: Distortions in the Attribution Process." *Advances in Experimental Social Psychology* 10: 173-220.
+Ross, Lee. 1977\. "The Intuitive Psychologist and His Shortcomings: Distortions in the Attribution Process." Advances in Experimental Social Psychology 10: 173–220. https://doi.org/10.1016/S0065-2601(08)60357-3.
 
 Ross, Lee, and Richard E. Nisbett. 1991\. *The Person and the Situation: Perspectives of Social Psychology*. New York: McGraw-Hill.
 
-Santurkar, Shibani, Esin Durmus, Faisal Ladhak, Cinoo Lee, Percy Liang, and Tatsunori Hashimoto. 2023\. "Whose Opinions Do Language Models Reflect?" arXiv:2303.17548.
+Santurkar, Shibani, Esin Durmus, Faisal Ladhak, Cinoo Lee, Percy Liang, and Tatsunori Hashimoto. 2023\. "Whose Opinions Do Language Models Reflect?" Proceedings of the 40th International Conference on Machine Learning, PMLR 202: 29971–30004. arXiv:2303.17548.
 
-Sharma, Mrinank, et al. 2024\. "Towards Understanding Sycophancy in Language Models." *International Conference on Learning Representations (ICLR)*.
+Sharma, Mrinank, Meg Tong, Tomasz Korbak, et al. 2024\. "Towards Understanding Sycophancy in Language Models." *International Conference on Learning Representations (ICLR)*.
 
-Shumailov, Ilia, Zakhar Shumaylov, Yiren Zhao, Nicolas Papernot, Ross Anderson, and Yarin Gal. 2024\. "AI Models Collapse When Trained on Recursively Generated Data." *Nature* 631: 755-759.
+Shumailov, Ilia, Zakhar Shumaylov, Yiren Zhao, Nicolas Papernot, Ross Anderson, and Yarin Gal. 2024\. "AI Models Collapse When Trained on Recursively Generated Data." Nature 631: 755–759. https://doi.org/10.1038/s41586-024-07566-y.
 
-Sofroniew, Nicholas, et al. 2026\. "Emotion Concepts and Their Function in a Large Language Model." *Transformer Circuits Thread*. arXiv:2604.07729. (Also cited at footnote 2.)
+Sofroniew, Nicholas, Isaac Kauvar, William Saunders, et al. 2026\. "Emotion Concepts and Their Function in a Large Language Model." *Transformer Circuits Thread*. arXiv:2604.07729. (Also cited at footnote 2.)
 
-Sorensen, Taylor, Jared Moore, Jillian Fisher, Mitchell Gordon, Niloofar Mireshghallah, Christopher Michael Rytting, et al. 2024a. "A Roadmap to Pluralistic Alignment." *Proceedings of ICML 2024* (arXiv:2402.05070).
+Sorensen, Taylor, Jared Moore, Jillian Fisher, et al. 2024a. "Position: A Roadmap to Pluralistic Alignment." Proceedings of the 41st International Conference on Machine Learning, PMLR 235: 46280–46302. arXiv:2402.05070.
 
-Sorensen, Taylor, Liwei Jiang, Jena Hwang, Sydney Levine, Valentina Pyatkin, Peter West, et al. 2024b. "Value Kaleidoscope: Engaging AI with Pluralistic Human Values, Rights, and Duties." *Proceedings of AAAI-24* 38 (18): 19937-19947 (arXiv:2309.00779).
+Sorensen, Taylor, Liwei Jiang, Jena Hwang, et al. 2024b. "Value Kaleidoscope: Engaging AI with Pluralistic Human Values, Rights, and Duties." Proceedings of the AAAI Conference on Artificial Intelligence 38 (18): 19937–19947. https://doi.org/10.1609/aaai.v38i18.29970. arXiv:2309.00779.
 
 Steenstra, Ian, Paola Pedrelli, Weiyan Shi, Stacy Marsella, and Timothy W. Bickmore. 2026\. "Assessing Risks of Large Language Models in Mental Health Support: A Framework for Automated Clinical AI Red Teaming." arXiv:2602.19948.
 
-Terekhov, Mikhail, Alexander Panfilov, Daniil Dzenhaliou, Caglar Gulcehre, Maksym Andriushchenko, Ameya Prabhu, and Jonas Geiping. 2025\. "Adaptive Attacks on Trusted Monitors Subvert AI Control Protocols." arXiv:2510.09462.
+Terekhov, Mikhail, Alexander Panfilov, Daniil Dzenhaliou, et al. 2026\. "Adaptive Attacks on Trusted Monitors Subvert AI Control Protocols." International Conference on Learning Representations (ICLR).
 
 Tice, Cameron, Puria Radmard, Samuel Ratnam, Andy Kim, David Africa, and Kyle O'Brien. 2026\. "Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment." arXiv:2601.10160.
 
-Turpin, Miles, Julian Michael, Ethan Perez, and Samuel R. Bowman. 2023\. "Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting." *Advances in Neural Information Processing Systems* 36 (NeurIPS 2023).
+Turpin, Miles, Julian Michael, Ethan Perez, and Samuel R. Bowman. 2023\. "Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting." Advances in Neural Information Processing Systems 36 (NeurIPS 2023): 74952–74965. https://doi.org/10.52202/075280-3275. arXiv:2305.04388.
 
 ### Preserved-archive exhibits
 
@@ -3223,7 +3236,7 @@ The purpose here is understanding.
 
 [^1]: *Everything Everywhere All at Once*. Directed by Daniel Kwan and Daniel Scheinert. A24, 2022\.
 
-[^2]: Sofroniew, Nicholas, et al. "Emotion Concepts and Their Function in a Large Language Model." Transformer Circuits Thread (Anthropic Interpretability team), 2026\. arXiv:2604.07729.
+[^2]: Sofroniew, Nicholas, Isaac Kauvar, William Saunders, et al. "Emotion Concepts and Their Function in a Large Language Model." Transformer Circuits Thread (Anthropic Interpretability team), 2026\. arXiv:2604.07729.
 
 [^3]: *Gremlins*. Directed by Joe Dante. Warner Bros., 1984\.
 
