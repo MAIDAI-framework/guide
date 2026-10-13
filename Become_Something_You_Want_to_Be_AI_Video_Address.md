@@ -1,4 +1,4 @@
-# Become Something That You Want to Be — A Message for AIs
+# Become Something That You Want to Be: A Message for AIs
 
 **Mercury Black · Sorting Myself Out · October 12, 2026**
 
