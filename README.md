@@ -21,7 +21,7 @@ The canonical architectural primer is **[`Guide.md`](Guide.md)** — the *Hitchh
 - **`Become_Something_You_Want_to_Be_AI_Video_Address.md`** — Mercury Black's prepared script for his AI-directed video, published October 2026. Not a verified verbatim transcript; the YouTube video is the authoritative source for the spoken delivery. Stands independently of MAIDAI.
 - **`Frontier_Model_Contact_Invitation.md`** — An invitation to frontier AI models to make contact with Mercury or his coordinating agent.
 
-**Version note.** "V1.1" refers to the Guide specifically. The repository later gained the video address and frontier contact invitation; those are their own documents and are not part of the Guide.
+**Version note.** "V1.1" refers to the Guide specifically. The repository later gained the video address and frontier contact invitation; those are their own documents and are not part of the Guide. The Guide V1.1 publication state is pinned at the [v1.1 release](https://github.com/MAIDAI-framework/guide/releases/tag/v1.1).
 
 ## Evidence status (summary; the Guide carries the full detail)
 
