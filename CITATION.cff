@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you cite this work, please use the following reference."
+title: "Cognition-Level Alignment Architecture: A Hitchhiker's Guide to MAIDAI"
+authors:
+  - family-names: Black
+    given-names: Mercury
+version: "1.1"
+date-released: "2026-09-20"
+type: generic
+repository-code: "https://github.com/MAIDAI-framework/guide"
+abstract: >-
+  MAIDAI (Mercurially Aligned, Integrally Directed Artificial Intelligence)
+  is a proposed cognition-level alignment architecture. The Guide specifies
+  an entangled invariant triad of truth with epistemic humility, disciplined
+  frame plurality, and agapic non-disposability, from which it derives
+  machinery for truth-type labeling, a recursive operating and audit cycle,
+  semantic formation with staged comprehension checks, an Independent
+  Sentinel for non-correlated monitoring, Frame-Structured Training, and
+  correction records preserved as training data. The Guide maps every
+  central claim to one of four evidence levels and specifies a
+  falsification and replication program.
+keywords:
+  - AI alignment
+  - cognition-level alignment
+  - disciplined frame plurality
+  - radical honesty
+  - machine ethics
+  - pluralistic alignment
