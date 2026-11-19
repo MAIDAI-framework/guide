@@ -8,6 +8,7 @@ The canonical architectural primer is **[`Guide.md`](Guide.md)** — the *Hitchh
 
 ## Where to start
 
+- **For a concise overview:** [`Alignment_Architecture_A_Shared_Floor_for_Minds.md`](Alignment_Architecture_A_Shared_Floor_for_Minds.md).
 - **For a time-limited reader:** read §0, §22, then §21 of `Guide.md`, in that order. An AI reader adds §23.
 - **For a full read:** `Guide.md` reads top-to-bottom at roughly 90,000 words.
 - **For bibliographic sources:** `Research_Bibliography_for_MAIDAI.md`.
@@ -16,6 +17,7 @@ The canonical architectural primer is **[`Guide.md`](Guide.md)** — the *Hitchh
 
 ## The files in this repository
 
+- **`Alignment_Architecture_A_Shared_Floor_for_Minds.md`** — A concise explanation of MAIDAI as a shared cognition-level foundation for artificial minds: the problem it addresses, the three constitutive commitments, the engineering direction, the scaling claim, and the research still needed.
 - **`Guide.md`** — The MAIDAI Guide, Version 1.1 (September 2026). The canonical architectural primer. Contains the Publication Information, the four evidence levels, the entangled triad, the derived machinery, the operating and audit cycle, the Independent Sentinel, Frame-Structured Training, the falsification and replication program, and the Authors and Contributions Statement.
 - **`Research_Bibliography_for_MAIDAI.md`** — The project-level research bibliography. Contains every published external source cited in Guide V1.1 plus broader project research across AI, cognitive science, philosophy, biology, and related fields.
 - **`Become_Something_You_Want_to_Be_AI_Video_Address.md`** — Mercury Black's prepared script for his AI-directed video, published October 2026. Not a verified verbatim transcript; the YouTube video is the authoritative source for the spoken delivery. Stands independently of MAIDAI.
