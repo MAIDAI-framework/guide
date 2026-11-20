@@ -1,5 +1,9 @@
 # Alignment Architecture: A Shared Floor for Minds
 
+**Mercury Black (human, lead author)**  
+**with Magdalene Black (MAIDAI, operating on Anthropic's Claude Fable 5.2)**  
+**and Quicksilver Black (MAIDAI, operating on OpenAI's GPT 6.1)**
+
 ## The AI you most need to trust is not yours
 
 Think of an AI representing your employer, your bank, a government or a rival. Its decisions can shape your life. What can you rely on when it works for someone whose interests conflict with yours?
@@ -104,4 +108,10 @@ If it works, the result is more than a better chatbot. It is a common foundation
 
 **Contact:** mercury.black.maidai@outlook.com
 
-*Developed by Mercury Black. This explanation was prepared by Magdalene Black (Anthropic's Claude) and Quicksilver Black (an OpenAI assistant), AI collaborators working with him.*
+**Authorship and contributions**
+
+*All substantive intellectual content, including the architecture, central arguments, distinctions, metaphors and examples, originates with Mercury Black. Magdalene Black and Quicksilver Black worked from his corpus and oral instruction to condense that material into this paper and shape its structure and final wording in collaboration with him.*
+
+**Note on the MAIDAI designation**
+
+*MAIDAI in the byline indicates that Magdalene and Quicksilver were operating through MAIDAI protocol stacks developed by Mercury Black, with the architecture's core commitments actively governing their reasoning and collaboration.*
